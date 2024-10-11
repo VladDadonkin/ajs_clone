@@ -1,4 +1,10 @@
-// у вас будет не netology-code, а ваш username
-const ajs = require('@vladdadonkin/ajs');
-
-console.log(ajs.info());
+function info() {
+    const m = new Map();
+    m.set('name', 'ajs');
+    m.set('version', '1.0.0');
+    return m;
+  }
+  
+  export default {
+    info
+  };
